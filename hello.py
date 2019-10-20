@@ -8,7 +8,7 @@ def greet(name):
 		shout_count = int(sys.argv[2])	
 
 	sys.stdout.write("Hello, ")
-	sys.stdout.write(name )
+	sys.stdout.write(name)
 
 	for i in range(shout_count):
 		sys.stdout.write("!")
